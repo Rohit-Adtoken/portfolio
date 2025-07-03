@@ -23,7 +23,7 @@ const Footer = () => {
           href="#hero"
           className="text-3xl font-bold text-indigo-600 dark:text-indigo-400 tracking-wide mb-4"
         >
-          Achyut<span className="text-gray-800 dark:text-white">.</span>
+          Rohit<span className="text-gray-800 dark:text-white">.</span>
         </a>
 
         {/* Navigation Links */}
@@ -57,7 +57,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <p className="text-sm text-gray-500 dark:text-gray-500">
-          © {new Date().getFullYear()} Achyut Katiyar. All rights reserved.
+          © {new Date().getFullYear()} Rohit Agrawal. All rights reserved.
         </p>
       </motion.div>
     </footer>

@@ -7,10 +7,14 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "email-server": "node emailServer.js"
   },
   "dependencies": {
+    "dotenv": "^17.0.1",
+    "express": "^5.1.0",
     "framer-motion": "^12.18.1",
+    "nodemailer": "^7.0.4",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-icons": "^5.5.0"

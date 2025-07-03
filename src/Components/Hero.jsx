@@ -30,19 +30,24 @@ const Hero = () => {
             <a
               href="#projects"
               className="px-6 py-3 bg-indigo-600 text-white rounded-full shadow hover:bg-indigo-700 transition duration-300"
+              
+              rel="noopener noreferrer"
             >
               View My Work
             </a>
             <a
               href="#contact"
               className="px-6 py-3 border border-indigo-600 text-indigo-600 dark:text-indigo-400 dark:border-indigo-400 rounded-full hover:bg-indigo-100 dark:hover:bg-indigo-900 transition duration-300"
+              
+              rel="noopener noreferrer"
             >
               Contact Me
             </a>
             <a
-              href="/Rohit_Agrawal_Resume.pdf"
-              download
+              href="https://drive.google.com/file/d/1vypp7jKZcWShIaC3s-cc2bhbAYebL-Yn/view?usp=sharing"
               className="px-6 py-3 border border-indigo-600 text-indigo-600 dark:text-indigo-400 dark:border-indigo-400 rounded-full hover:bg-indigo-100 dark:hover:bg-indigo-900 transition duration-300"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Download Resume
             </a>
@@ -50,26 +55,45 @@ const Hero = () => {
 
           {/* Social Icons */}
           <div className="flex items-center gap-5 pt-6">
-            <a href="#" className="text-gray-600 dark:text-gray-400 hover:text-indigo-600 dark:hover:text-indigo-400 transition">
+            <a
+              href="https://github.com/RohitAgrawal7"
+              className="text-gray-600 dark:text-gray-400 hover:text-indigo-600 dark:hover:text-indigo-400 transition"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaGithub size={20} />
             </a>
-            <a href="#" className="text-blue-700 hover:text-blue-800 transition">
+            <a
+              href="https://www.linkedin.com/in/rohit-agrawal7/"
+              className="text-blue-700 hover:text-blue-800 transition"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaLinkedinIn size={20} />
             </a>
-            <a href="#" className="text-blue-400 hover:text-blue-500 transition">
+            <a
+              href="https://twitter.com/rohit_agrawal7"
+              className="text-blue-400 hover:text-blue-500 transition"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaTwitter size={20} />
             </a>
-            <a href="#" className="text-pink-500 hover:text-pink-600 transition">
-              <FaInstagram size={20} />
+            <a
+              href="mailto:rohitmagrawal.work@gmail.com"
+              className="text-gray-900 hover:text-gray-600 transition"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Send Email"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" className="inline-block" width={20} height={20} fill="currentColor" viewBox="0 0 24 24"><path d="M2.01 6.81A2.25 2.25 0 0 1 4.25 5.5h15.5c.98 0 1.8.64 2.09 1.54L12 13.56 2.01 6.81zm-.01 1.87v8.07c0 1.24 1.01 2.25 2.25 2.25h15.5a2.25 2.25 0 0 0 2.25-2.25V8.68l-9.36 6.7a1 1 0 0 1-1.18 0L2 8.68z"/></svg>
             </a>
           </div>
-        </div>
-
-        {/* Hero Image */}
+          </div>
         <div className="flex justify-center md:justify-end">
           <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-indigo-600 dark:border-indigo-400 shadow-lg">
             <img
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=774&q=80"
+              src="./public/PassportSize.jpg"
               alt="Rohit Agrawal"
               className="w-full h-full object-cover"
             />
